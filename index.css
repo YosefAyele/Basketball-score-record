@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background:#4C1D95;
+    color:white;
+    text-align: center;
+
+   
+;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.board{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:greenyellow;
+    border:solid 1px bisque;
+    background-color:black;
+    height:120px;
+    width:120 px;
+    margin-bottom: 10px;
+    text-align:center;
+    font-family: digital;
+    font-size:80px;
+    margin-top:0px;
+    
+}
+.btn{
+    margin-bottom:50px;
+}
+
+.btns{
+     font-family: digital;
+     border:2px dashed black;
+     padding:5px 10px;
+     font-weight: bold;
+}
+#new{
+background: #34D399;
+}
+
+ 

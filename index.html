@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <style>
+                @font-face{
+                font-family:"digital";
+                src:url("digital-7.ttf")
+                }
+        </style>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                
+                <div class="board">
+                    <p id="score-h">0</p>
+                </div>
+                
+                <div class="btn">
+                    <button class="btns" onclick="add1H()">+1</button>
+                    <button class="btns" onclick="add2H()">+2</button>
+                    <button class="btns" onclick="add3H()">+3</button>
+                </div>
+                
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="board">
+                    <p id="score-g">0</p>
+                </div>
+                
+                <div class="btn">
+                    <button class="btns" onclick="add1G()">+1</button>
+                    <button class="btns" onclick="add2G()">+2</button>
+                    <button class="btns" onclick="add3G()">+3</button>
+                </div>
+            
+            </div>
+        </div>
+        <div >
+                <button id="new" onclick="newgame()"> New Game </button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
